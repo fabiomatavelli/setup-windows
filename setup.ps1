@@ -2,10 +2,10 @@
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-New-Item -ItemType 'folder' -Path $env:HOMEPATH -Name 'wts'
-New-Item -ItemType 'folder' -Path 'C:\' -Name 'wts'
-New-Item -ItemType 'folder' -Path 'C:\' -Name 'sys'
-New-Item -ItemType 'folder' -Path 'C:\' -Name 'sys\base'
+New-Item -ItemType 'directory' -Path $env:HOMEPATH -Name 'wts'
+New-Item -ItemType 'directory' -Path 'C:\' -Name 'wts'
+New-Item -ItemType 'directory' -Path 'C:\' -Name 'sys'
+New-Item -ItemType 'directory' -Path 'C:\' -Name 'sys\base'
 
 choco update chocolatey -y -V
 
