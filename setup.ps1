@@ -17,6 +17,7 @@ choco install lightshot -y -V
 choco install rdmfree -y -V
 choco install git -y -V
 choco install github -y -V
+choco install tortoisegit -y -V
 choco install notepadplusplus -y -V
 choco install vscode -y -V
 choco install skype -y -V
