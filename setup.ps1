@@ -15,6 +15,7 @@ choco install googlechrome -y -V
 choco install slack -y -V
 choco install lightshot -y -V
 choco install rdmfree -y -V
+choco install git -y -V
 choco install github -y -V
 choco install notepadplusplus -y -V
 choco install vscode -y -V
