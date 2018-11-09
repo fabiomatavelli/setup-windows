@@ -23,7 +23,8 @@ $packages = @("googlechrome",
               "awscli",
               "awstools.powershell",
               "gpg4win",
-              "terraform")
+              "terraform",
+              "postman")
 
 choco update chocolatey -y -V
 
